@@ -11,5 +11,5 @@ The goal is to create a minimal Parcel plugin to build Ember applications in a m
 This experimentation takes a few stages.
 
 
-* [`bare`](tree/bare) - Uses `ember-source` with no config or plugins
-* [`templates`](tree/templates) - Uses `ember-source` with `babel-plugin-htmlbars-inline-precompile`
+* [`bare`](../../tree/bare) - Uses `ember-source` with no config or plugins
+* [`templates`](../../tree/templates) - Uses `ember-source` with `babel-plugin-htmlbars-inline-precompile`
