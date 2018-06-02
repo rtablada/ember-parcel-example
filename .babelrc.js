@@ -10,6 +10,7 @@ module.exports = {
     }]
   ],
   "plugins": [
+    ["ember-modules-api-polyfill"],
     ["htmlbars-inline-precompile", {
       precompile: HTMLBarsCompiler.precompile
     }]

@@ -8,7 +8,9 @@ import UserListComponent from './ui/components/user-list/component';
 // Templates need to be imported to add to bundle
 import './ui/routes/application/template';
 
-let App = Ember.Application.extend({
+import Application from '@ember/application';
+
+let App = Application.extend({
   modulePrefix: 'my-app',
 
   LOG_TRANSITIONS: true, // basic logging of successful transitions

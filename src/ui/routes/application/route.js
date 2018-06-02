@@ -1,3 +1,4 @@
+import Route from '@ember/routing/route';
 // Use Module From Ember Global
 export default Ember.Route.extend({
   model() {

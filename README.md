@@ -13,3 +13,4 @@ This experimentation takes a few stages.
 
 * [`bare`](../../tree/bare) - Uses `ember-source` with no config or plugins
 * [`templates`](../../tree/templates) - Uses `ember-source` with `babel-plugin-htmlbars-inline-precompile`
+* [`modules`](../../tree/modules) - ... with `babel-plugin-ember-modules-api-polyfill`
