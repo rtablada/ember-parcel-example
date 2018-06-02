@@ -1,6 +1,7 @@
-import hbs from 'htmlbars-inline-precompile';
+// Use Runtime Template compiling instead of precompile... THIS IS BAAAAAADDDDDDD!!!!
+import HTMLBarsCompiler from 'ember-source/dist/ember-template-compiler';
 
-const template = hbs`
+const template = `
 <ul>
   {{#each users as |user|}}
     <li>{{user.name.last}}, {{user.name.first}}</li>
@@ -8,4 +9,4 @@ const template = hbs`
 </ul>
 `;
 
-export default template;
+export default HTMLBarsCompiler.compile(template);
