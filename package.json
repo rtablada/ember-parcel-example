@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html --no-hmr"
+  },
   "devDependencies": {
     "parcel-bundler": "^1.8.1"
   },
   "dependencies": {
+    "babel-plugin-htmlbars-inline-precompile": "^0.2.4",
     "babel-preset-env": "^1.7.0",
     "ember-resolver": "^4.5.5",
-    "ember-source": "^3.1.2"
+    "ember-source": "^3.1.2",
+    "tailwindcss": "^0.5.3"
   }
 }
