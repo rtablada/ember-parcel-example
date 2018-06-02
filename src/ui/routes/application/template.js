@@ -6,4 +6,5 @@ const template = hbs`
 {{user-list users=this.model.results}}
 `;
 
+// Route templates have to be registered on `Ember.TEMPLATES` for global resolver
 Ember.TEMPLATES['application'] = template;
